@@ -1,0 +1,72 @@
+
+h1{
+    color: cornflowerblue;
+    size: 25px;
+}
+.foto_derecha{
+    padding: 25px;
+    display: flex;
+    justify-content:right;
+}
+
+.foto_derecha img{
+    margin-left: 25px;
+    width: 250pxs;
+    height: 250px;
+    
+}
+.foto_derecha p{
+    text-align: left;
+}
+p{
+    size: 28px;
+}
+
+  .foto_izquierda{
+    display: flex;
+    justify-content: left;
+    padding: 25px;
+  }  
+.foto_izquierda img{
+margin-right: 25px;
+width: 250px;
+height: 250px;
+
+}
+.foto_izquierda p{
+    text-align: right;
+    size: 28px;
+}
+img{
+    height: 250px;
+    width: 250px;
+   
+    justify-content: right;
+}
+
+/* estilos barra navegación*/
+nav {
+background-color: blue;
+padding: 15px;
+margin: 20px;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    justify-content: center;
+
+}
+nav a{
+
+    color: white;
+    padding: 15px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background-color 0.7s ease;
+
+    
+
+
+}
+nav a:hover{
+    background-color: blueviolet;}
